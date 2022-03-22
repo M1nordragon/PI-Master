@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PI Master - Learn</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/resources/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
 </head>
 <body>
     <h2 id="bar">
@@ -20,10 +20,24 @@
 
     <div id="text">
 
-        <h1 class="mainTitle">Learn</h3>
+        <h1 id="learnTitle" class="mainTitle">Learn</h3>
 
-        <p class="mainText">Select digits</p>
+        <p class="mainText" id="selectText">Select digits...</p>
+
+        <p id="learnPi">3.<strong id="pi1">1415926535</strong> <strong id="pi2">8979323846</strong> 
+            <strong id="pi3">2643383279</strong> <strong id="pi4">5028841971</strong>
+            <strong id="pi5">6939937510</strong> <strong id="pi6">5820974944</strong> 
+            <strong id="pi7">5923078164</strong> <strong id="pi8">0628620899</strong> 
+            <strong id="pi9">8628034825</strong> <strong id="pi10">3421170679</strong></p>
+        
+        <div id="jsEl">
+
+
+        </div>
+        <button onclick="launchButtonClick()" id="launchButton">Start</button>
 
     </div>
+
+    <script type="text/javascript" src="learnScript.js"></script>
 </body>
 </html>

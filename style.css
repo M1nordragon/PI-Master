@@ -82,3 +82,26 @@ body {
 #citation {
   font-size: 25px;
 }
+
+#learnPi {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#selectText {
+  font-size: 40px;
+}
+
+#launchButton {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  border: 4px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #9aad9c;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
